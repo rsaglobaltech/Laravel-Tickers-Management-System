@@ -19,13 +19,10 @@ class CreateTicketsTable extends Migration
             $table->unsignedSmallInteger('priority_id')->required();
             $table->unsignedBigInteger('requester_user_id')->required();
             $table->string('name')->required();
-
-            // comment _id
-            $table->boolean('flag_status')->default(true); //true=open or false=close
             
-
-
-
+            $table->boolean('flag_status')->default(true); //true=open or false=close
+            $table->unsignedBigInteger('created_by')->index();
+            $table->unsignedBigInteger('updated_by')->index();
             $table->timestamps();
         });
     }
