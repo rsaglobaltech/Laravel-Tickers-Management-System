@@ -27,3 +27,7 @@ cmder will be refered as console
 ## If for some reason your project stop working do these:
 - `composer install`
 - `php artisan migrate`
+
+## Fixing compilation error with:
+- `npm run dev`
+sudo npm install --global cross-env
