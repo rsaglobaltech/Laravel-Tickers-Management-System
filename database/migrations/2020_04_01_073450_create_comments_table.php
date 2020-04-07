@@ -25,8 +25,8 @@ class CreateCommentsTable extends Migration
             $table->unsignedBigInteger('updated_by')->index();
         
             //relationships
-            $table->foreign('ticket_id')->reference('id')->on('tickets');
-            $table->foreign('user_id')->reference('id')->on('users');
+            $table->foreign('ticket_id')->references('id')->on('tickets');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

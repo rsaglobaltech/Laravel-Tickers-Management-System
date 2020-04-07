@@ -22,8 +22,8 @@ class CreateUsersTable extends Migration
             $table->string('username')->unique();
             $table->string('password');
             $table->timestamp('email_verified_at')->nullable();
-            $table->timestamp('start_date')->required();
-            $table->timestamp('end_date')->required();
+            $table->timestamp('start_date')->nullable();
+            $table->timestamp('end_date')->nullable();
             $table->rememberToken();
             $table->timestamps(); //esto crea automaticamente los campos create_by and updated_by
             $table->unsignedBigInteger('created_by')->index();

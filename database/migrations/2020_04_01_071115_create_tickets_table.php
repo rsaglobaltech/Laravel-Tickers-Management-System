@@ -27,9 +27,9 @@ class CreateTicketsTable extends Migration
             $table->unsignedBigInteger('created_by')->index();
             $table->unsignedBigInteger('updated_by')->index();
             
-            $table->foreign('type_id')->reference('id')->on('types')->onDelete('set null');
-            $table->foreign('priority_id')->reference('id')->on('priorities');
-            $table->foreign('requester_user_id')->reference('id')->on('users');
+            $table->foreign('type_id')->references('id')->on('types')->onDelete('set null');
+            $table->foreign('priority_id')->references('id')->on('priorities');
+            $table->foreign('requester_user_id')->references('id')->on('users');
         });
     }
 
