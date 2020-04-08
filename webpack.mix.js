@@ -23,5 +23,6 @@ mix
         'resources/vendor/bootstrap/js/bootstrap.bundle.min.js',
     ],'public/js/vendor.js')
     .copy('resources/vendor/fontawesome-free-5.13.0-web/webfonts','public/webfonts')
+    .copy('resources/img','public/img')
     .version()
     // .sass('resources/sass/app.scss', 'public/css');
