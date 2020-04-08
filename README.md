@@ -31,3 +31,6 @@ cmder will be refered as console
 ## Fixing compilation error with:
 - `npm run dev`
 sudo npm install --global cross-env
+
+## Database Design Model
+![picture](database_design.png)

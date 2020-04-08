@@ -16,3 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.app');
 });
+
+// Gestion (Management)
+    //Tickets
+    //Asignacion
+// Configuracion(Setting)
+    //Tipos
+    //Prioridades
+// Reportes(Reports)
+    //Creados
+    //Pendientes
+
+// Administracion
+    //usuarios
+    //roles
+    //permisos(solo lectura)
