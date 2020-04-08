@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('layouts.app');
 });
 
+
 // Gestion (Management)
     //Tickets
     //Asignacion
@@ -31,3 +32,4 @@ Route::get('/', function () {
     //usuarios
     //roles
     //permisos(solo lectura)
+Route::get('administracion/users','Admin\UsersController@index');

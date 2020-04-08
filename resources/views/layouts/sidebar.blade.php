@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
-        <img src="img/AdminLTELogo.png"
+        <img src="{{ asset('img/AdminLTELogo.png') }}"
              alt="AdminLTE Logo"
              class="brand-image img-circle elevation-3"
              style="opacity: .8">
@@ -13,7 +13,7 @@
         <!-- Sidebar user (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                <img src="{{ asset('img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
                 <a href="#" class="d-block">Alexander Pierce</a>
@@ -28,7 +28,7 @@
                     <a href="../calendar.html" class="nav-link">
                         <i class="nav-icon fa fa-bolt"></i>
                         <p>
-                            Gestion
+                            Management
                             <span class="badge badge-info right">2</span>
                         </p>
                     </a>
@@ -42,12 +42,12 @@
                     </a>
                 </li>
 
-                <li class="nav-header">CONFIGURACION</li>
+                <li class="nav-header">SETTINGS</li>
                 <li class="nav-item">
                     <a href="../calendar.html" class="nav-link">
                         <i class="nav-icon fa fa-map-signs"></i>
                         <p>
-                            Tipos
+                            Types
                             <span class="badge badge-info right">2</span>
                         </p>
                     </a>
@@ -56,17 +56,17 @@
                     <a href="../gallery.html" class="nav-link">
                         <i class="nav-icon fas fa-thermometer-half"></i>
                         <p>
-                            Prioridades
+                            Priorities
                         </p>
                     </a>
                 </li>
 
-                <li class="nav-header">REPORTES</li>
+                <li class="nav-header">REPORTS</li>
                 <li class="nav-item">
                     <a href="../calendar.html" class="nav-link">
                         <i class="nav-icon fa fa-plus-square"></i>
                         <p>
-                            Nuevos Creados
+                            New Creations
                             <span class="badge badge-info right">2</span>
                         </p>
                     </a>
@@ -75,17 +75,17 @@
                     <a href="../gallery.html" class="nav-link">
                         <i class="nav-icon far fa-clock"></i>
                         <p>
-                            Pendientes
+                            Slopes
                         </p>
                     </a>
                 </li>
 
-                <li class="nav-header">ADMININSTRACION</li>
+                <li class="nav-header">ADMINISTRATION</li>
                 <li class="nav-item">
                     <a href="../calendar.html" class="nav-link">
                         <i class="nav-icon fa fa-users"></i>
                         <p>
-                            Usuarios
+                            Users
                             <span class="badge badge-info right">2</span>
                         </p>
                     </a>
@@ -102,7 +102,7 @@
                     <a href="../gallery.html" class="nav-link">
                         <i class="nav-icon fa fa-key"></i>
                         <p>
-                            Permisos
+                            Permissions
                         </p>
                     </a>
                 </li>
